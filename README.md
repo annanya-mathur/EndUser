@@ -2,11 +2,11 @@
 
 # Start Zookeeper Server
 
-<code> bin\windows\zookeeper-server-start.bat config\zookeeper.properties </code>
+```bin\windows\zookeeper-server-start.bat config\zookeeper.properties```
 
 
 # Start Kafka Server
-bin\windows\kafka-server-start.bat config\server.properties```
+```bin\windows\kafka-server-start.bat config\server.properties```
 
 # Create new topic
 ```bash kafka-topics.bat --create --topic <topic-name> --bootstrap-server localhost:9092```
