@@ -6,7 +6,7 @@
 
 
 # Start Kafka Server
-```bash bin\windows\kafka-server-start.bat config\server.properties```
+bin\windows\kafka-server-start.bat config\server.properties```
 
 # Create new topic
 ```bash kafka-topics.bat --create --topic <topic-name> --bootstrap-server localhost:9092```
