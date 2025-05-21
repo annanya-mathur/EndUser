@@ -18,13 +18,21 @@ kafka-topics.bat --create --topic <topic-name> --bootstrap-server localhost:9092
 
 
 # Produce new topic
-```bash bin\windows\kafka-console-producer.bat --topic <topic-name> --bootstrap-server localhost:9092```
+```bash 
+bin\windows\kafka-console-producer.bat --topic <topic-name> --bootstrap-server localhost:9092
+```
 
 # consume new topic
-```bash bin\windows\kafka-console-consumer.bat --topic <topic-name> --from-beginning --bootstrap-server localhost:9092```
+```bash 
+bin\windows\kafka-console-consumer.bat --topic <topic-name> --from-beginning --bootstrap-server localhost:9092
+```
 
 # List all the topics
-```bash bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092```
+```bash 
+bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+```
 
 # Describe particular topic
-```bash bin\windows\kafka-topics.bat --describe --bootstrap-server localhost:9092 --topic <topic-name>```
+```bash 
+bin\windows\kafka-topics.bat --describe --bootstrap-server localhost:9092 --topic <topic-name>
+```
