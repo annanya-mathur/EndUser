@@ -4,6 +4,9 @@
 
 ```bin\windows\zookeeper-server-start.bat config\zookeeper.properties```
 
+```bash
+git clone --recurse-submodules https://github.com/google/leveldb.git
+```
 
 # Start Kafka Server
 ```bin\windows\kafka-server-start.bat config\server.properties```
