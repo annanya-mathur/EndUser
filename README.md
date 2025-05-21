@@ -2,7 +2,7 @@
 
 # Start Zookeeper Server
 
-```bash bin\windows\zookeeper-server-start.bat config\zookeeper.properties```
+```bash bin\windows\zookeeper-server-start.bat config\zookeeper.properties`
 
 
 # Start Kafka Server
