@@ -2,17 +2,20 @@
 
 # Start Zookeeper Server
 
-```bin\windows\zookeeper-server-start.bat config\zookeeper.properties```
-
 ```bash
-git clone --recurse-submodules https://github.com/google/leveldb.git
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
 
 # Start Kafka Server
-```bin\windows\kafka-server-start.bat config\server.properties```
+```bash
+bin\windows\kafka-server-start.bat config\server.properties
+```
 
 # Create new topic
-```bash kafka-topics.bat --create --topic <topic-name> --bootstrap-server localhost:9092```
+```bash 
+kafka-topics.bat --create --topic <topic-name> --bootstrap-server localhost:9092
+```
+
 
 # Produce new topic
 ```bash bin\windows\kafka-console-producer.bat --topic <topic-name> --bootstrap-server localhost:9092```
