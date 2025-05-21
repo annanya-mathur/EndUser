@@ -1,7 +1,7 @@
 **EndUser** - This service will consume location update
 
 # Start Zookeeper Server 
-<code>bin\windows\zookeeper-server-start.bat config\zookeeper.properties</code>
+<html>bin\windows\zookeeper-server-start.bat config\zookeeper.properties</html>
 
 # Start Kafka Server
 bin\windows\kafka-server-start.bat config\server.properties
